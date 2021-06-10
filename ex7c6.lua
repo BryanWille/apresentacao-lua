@@ -2,7 +2,7 @@
 
 io.write("Digite seu nome: ")   -- Classe io, metódo write para escrever.
 nome = io.read()    --<etódo de leitura, o tipo deve ser escrito entre parênteses (padrão é String)
-io.write("Digite o salário de ", nome, ": ")
+io.write("Digite o salario de ", nome, ": ")
 salario = io.read("*n") -- "*n" indica que é um número inteiro
 
 --        Comando IF
@@ -26,5 +26,4 @@ plLiquido = plBruto - impostoRenda
 
 --         Saída de Dados
 
-io.write("Participação nos lucros liquido de ", nome, " foi de: R$", plLiquido) 
-print("")
+io.write("Participacaoo nos lucros liquido de ", nome, " foi de: R$", plLiquido) 
